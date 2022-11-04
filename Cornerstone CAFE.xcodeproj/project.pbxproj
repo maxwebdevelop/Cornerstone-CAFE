@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		134D44CB28AAFEAD00F38887 /* ItemsToMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 134D44CA28AAFEAD00F38887 /* ItemsToMove.swift */; };
+		135495EA290C4B660011DA34 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 135495E9290C4B660011DA34 /* GoogleService-Info.plist */; };
+		135495EC290F1F1F0011DA34 /* RecommandDrinksModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 135495EB290F1F1F0011DA34 /* RecommandDrinksModule.swift */; };
+		137B0BF028A57B5000514035 /* Cornerstone_CAFEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B0BEF28A57B5000514035 /* Cornerstone_CAFEApp.swift */; };
+		137B0BF428A57B5100514035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137B0BF328A57B5100514035 /* Assets.xcassets */; };
+		137B0BF728A57B5100514035 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137B0BF628A57B5100514035 /* Preview Assets.xcassets */; };
+		137B0C0128A57B5100514035 /* Cornerstone_CAFETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B0C0028A57B5100514035 /* Cornerstone_CAFETests.swift */; };
+		137B0C0B28A57B5200514035 /* Cornerstone_CAFEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B0C0A28A57B5200514035 /* Cornerstone_CAFEUITests.swift */; };
+		137B0C0D28A57B5200514035 /* Cornerstone_CAFEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B0C0C28A57B5200514035 /* Cornerstone_CAFEUITestsLaunchTests.swift */; };
+		137B0C1A28A57B6300514035 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B0C1928A57B6300514035 /* LoginView.swift */; };
+		137B0C1C28A57B7000514035 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B0C1B28A57B7000514035 /* RegisterView.swift */; };
+		137B0C1E28A57B7A00514035 /* ForgotpasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B0C1D28A57B7A00514035 /* ForgotpasswordView.swift */; };
+		137B0C2028A57B8500514035 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B0C1F28A57B8500514035 /* HomeView.swift */; };
+		137B0C2228A57B8F00514035 /* QrCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B0C2128A57B8F00514035 /* QrCodeView.swift */; };
+		137B0C2428A57B9D00514035 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B0C2328A57B9D00514035 /* OrderView.swift */; };
+		137B0C2628A57BAD00514035 /* OrderDetailsMoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B0C2528A57BAD00514035 /* OrderDetailsMoreView.swift */; };
+		137B0C2828A57BB500514035 /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B0C2728A57BB500514035 /* CartView.swift */; };
+		137B0C2A28A57BC600514035 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B0C2928A57BC500514035 /* SettingsView.swift */; };
+		137B0C2F28A57D1300514035 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 137B0C2E28A57D1300514035 /* FirebaseAnalytics */; };
+		137B0C3128A57D1300514035 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 137B0C3028A57D1300514035 /* FirebaseAuth */; };
+		137B0C3328A57D1300514035 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 137B0C3228A57D1300514035 /* FirebaseDatabase */; };
+		137B0C3528A57D1300514035 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 137B0C3428A57D1300514035 /* FirebaseFirestore */; };
+		137B0C3728A57D1300514035 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 137B0C3628A57D1300514035 /* FirebaseMessaging */; };
+		137B0C3928A57D1300514035 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 137B0C3828A57D1300514035 /* FirebaseStorage */; };
+		137B0C4228A6A9F400514035 /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B0C4128A6A9F300514035 /* NetworkConnection.swift */; };
+		137B0C4428A6B14600514035 /* MenueModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B0C4328A6B14600514035 /* MenueModule.swift */; };
+		137B0C4628A6B39C00514035 /* QrCodeNeedHelp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B0C4528A6B39C00514035 /* QrCodeNeedHelp.swift */; };
+		137B0C4828A6B5DF00514035 /* ReleaseNotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B0C4728A6B5DF00514035 /* ReleaseNotesView.swift */; };
+		137B0C4A28A6B72D00514035 /* PushNotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B0C4928A6B72D00514035 /* PushNotificationsView.swift */; };
+		137B0C5028A6FD7A00514035 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137B0C4F28A6FD7A00514035 /* EditProfileView.swift */; };
+		138FAB8B28B00C4A00DF17BE /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138FAB8A28B00C4A00DF17BE /* SplashScreenView.swift */; };
+		138FAB8D28B0148000DF17BE /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138FAB8C28B0148000DF17BE /* Onboarding.swift */; };
+		13DC3B4328AC2EC000593B46 /* DeleteAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC3B4228AC2EC000593B46 /* DeleteAccount.swift */; };
+		13DC3B4A28AD431400593B46 /* CartDrinkViewModuel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC3B4928AD431400593B46 /* CartDrinkViewModuel.swift */; };
+		13DC3B4D28AD4AF100593B46 /* ItemDecor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC3B4C28AD4AF100593B46 /* ItemDecor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		137B0BFD28A57B5100514035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 137B0BE428A57B5000514035 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 137B0BEB28A57B5000514035;
+			remoteInfo = "Cornerstone CAFE";
+		};
+		137B0C0728A57B5200514035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 137B0BE428A57B5000514035 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 137B0BEB28A57B5000514035;
+			remoteInfo = "Cornerstone CAFE";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		134D44CA28AAFEAD00F38887 /* ItemsToMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsToMove.swift; sourceTree = "<group>"; };
+		135495E9290C4B660011DA34 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		135495EB290F1F1F0011DA34 /* RecommandDrinksModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommandDrinksModule.swift; sourceTree = "<group>"; };
+		137B0BEC28A57B5000514035 /* Cornerstone CAFE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cornerstone CAFE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		137B0BEF28A57B5000514035 /* Cornerstone_CAFEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cornerstone_CAFEApp.swift; sourceTree = "<group>"; };
+		137B0BF328A57B5100514035 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		137B0BF628A57B5100514035 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		137B0BFC28A57B5100514035 /* Cornerstone CAFETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cornerstone CAFETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		137B0C0028A57B5100514035 /* Cornerstone_CAFETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cornerstone_CAFETests.swift; sourceTree = "<group>"; };
+		137B0C0628A57B5200514035 /* Cornerstone CAFEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cornerstone CAFEUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		137B0C0A28A57B5200514035 /* Cornerstone_CAFEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cornerstone_CAFEUITests.swift; sourceTree = "<group>"; };
+		137B0C0C28A57B5200514035 /* Cornerstone_CAFEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cornerstone_CAFEUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		137B0C1928A57B6300514035 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		137B0C1B28A57B7000514035 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		137B0C1D28A57B7A00514035 /* ForgotpasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotpasswordView.swift; sourceTree = "<group>"; };
+		137B0C1F28A57B8500514035 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		137B0C2128A57B8F00514035 /* QrCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeView.swift; sourceTree = "<group>"; };
+		137B0C2328A57B9D00514035 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		137B0C2528A57BAD00514035 /* OrderDetailsMoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetailsMoreView.swift; sourceTree = "<group>"; };
+		137B0C2728A57BB500514035 /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
+		137B0C2928A57BC500514035 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		137B0C4128A6A9F300514035 /* NetworkConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
+		137B0C4328A6B14600514035 /* MenueModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenueModule.swift; sourceTree = "<group>"; };
+		137B0C4528A6B39C00514035 /* QrCodeNeedHelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeNeedHelp.swift; sourceTree = "<group>"; };
+		137B0C4728A6B5DF00514035 /* ReleaseNotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseNotesView.swift; sourceTree = "<group>"; };
+		137B0C4928A6B72D00514035 /* PushNotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationsView.swift; sourceTree = "<group>"; };
+		137B0C4F28A6FD7A00514035 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		138FAB8A28B00C4A00DF17BE /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		138FAB8C28B0148000DF17BE /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		13DC3B4228AC2EC000593B46 /* DeleteAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAccount.swift; sourceTree = "<group>"; };
+		13DC3B4928AD431400593B46 /* CartDrinkViewModuel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartDrinkViewModuel.swift; sourceTree = "<group>"; };
+		13DC3B4C28AD4AF100593B46 /* ItemDecor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDecor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		137B0BE928A57B5000514035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137B0C3328A57D1300514035 /* FirebaseDatabase in Frameworks */,
+				137B0C3528A57D1300514035 /* FirebaseFirestore in Frameworks */,
+				137B0C3728A57D1300514035 /* FirebaseMessaging in Frameworks */,
+				137B0C2F28A57D1300514035 /* FirebaseAnalytics in Frameworks */,
+				137B0C3128A57D1300514035 /* FirebaseAuth in Frameworks */,
+				137B0C3928A57D1300514035 /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		137B0BF928A57B5100514035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		137B0C0328A57B5200514035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		137B0BE328A57B5000514035 = {
+			isa = PBXGroup;
+			children = (
+				137B0BEE28A57B5000514035 /* Cornerstone CAFE */,
+				137B0BFF28A57B5100514035 /* Cornerstone CAFETests */,
+				137B0C0928A57B5200514035 /* Cornerstone CAFEUITests */,
+				137B0BED28A57B5000514035 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		137B0BED28A57B5000514035 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				137B0BEC28A57B5000514035 /* Cornerstone CAFE.app */,
+				137B0BFC28A57B5100514035 /* Cornerstone CAFETests.xctest */,
+				137B0C0628A57B5200514035 /* Cornerstone CAFEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		137B0BEE28A57B5000514035 /* Cornerstone CAFE */ = {
+			isa = PBXGroup;
+			children = (
+				13DC3B4B28AD4ABE00593B46 /* ItemCartDecor */,
+				13DC3B4828AD42E200593B46 /* VieModule */,
+				137B0C4028A6A9DF00514035 /* MODULES */,
+				137B0BEF28A57B5000514035 /* Cornerstone_CAFEApp.swift */,
+				138FAB8A28B00C4A00DF17BE /* SplashScreenView.swift */,
+				137B0C1928A57B6300514035 /* LoginView.swift */,
+				137B0C1B28A57B7000514035 /* RegisterView.swift */,
+				137B0C1D28A57B7A00514035 /* ForgotpasswordView.swift */,
+				137B0C1F28A57B8500514035 /* HomeView.swift */,
+				137B0C2128A57B8F00514035 /* QrCodeView.swift */,
+				137B0C4528A6B39C00514035 /* QrCodeNeedHelp.swift */,
+				137B0C2328A57B9D00514035 /* OrderView.swift */,
+				137B0C2528A57BAD00514035 /* OrderDetailsMoreView.swift */,
+				137B0C2728A57BB500514035 /* CartView.swift */,
+				137B0C2928A57BC500514035 /* SettingsView.swift */,
+				13DC3B4228AC2EC000593B46 /* DeleteAccount.swift */,
+				137B0C4F28A6FD7A00514035 /* EditProfileView.swift */,
+				137B0C4728A6B5DF00514035 /* ReleaseNotesView.swift */,
+				137B0C4928A6B72D00514035 /* PushNotificationsView.swift */,
+				134D44CA28AAFEAD00F38887 /* ItemsToMove.swift */,
+				137B0BF328A57B5100514035 /* Assets.xcassets */,
+				135495E9290C4B660011DA34 /* GoogleService-Info.plist */,
+				137B0BF528A57B5100514035 /* Preview Content */,
+			);
+			path = "Cornerstone CAFE";
+			sourceTree = "<group>";
+		};
+		137B0BF528A57B5100514035 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				137B0BF628A57B5100514035 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		137B0BFF28A57B5100514035 /* Cornerstone CAFETests */ = {
+			isa = PBXGroup;
+			children = (
+				137B0C0028A57B5100514035 /* Cornerstone_CAFETests.swift */,
+			);
+			path = "Cornerstone CAFETests";
+			sourceTree = "<group>";
+		};
+		137B0C0928A57B5200514035 /* Cornerstone CAFEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				137B0C0A28A57B5200514035 /* Cornerstone_CAFEUITests.swift */,
+				137B0C0C28A57B5200514035 /* Cornerstone_CAFEUITestsLaunchTests.swift */,
+			);
+			path = "Cornerstone CAFEUITests";
+			sourceTree = "<group>";
+		};
+		137B0C4028A6A9DF00514035 /* MODULES */ = {
+			isa = PBXGroup;
+			children = (
+				137B0C4128A6A9F300514035 /* NetworkConnection.swift */,
+				137B0C4328A6B14600514035 /* MenueModule.swift */,
+				135495EB290F1F1F0011DA34 /* RecommandDrinksModule.swift */,
+				138FAB8C28B0148000DF17BE /* Onboarding.swift */,
+			);
+			path = MODULES;
+			sourceTree = "<group>";
+		};
+		13DC3B4828AD42E200593B46 /* VieModule */ = {
+			isa = PBXGroup;
+			children = (
+				13DC3B4928AD431400593B46 /* CartDrinkViewModuel.swift */,
+				13DC3B4C28AD4AF100593B46 /* ItemDecor.swift */,
+			);
+			path = VieModule;
+			sourceTree = "<group>";
+		};
+		13DC3B4B28AD4ABE00593B46 /* ItemCartDecor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ItemCartDecor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		137B0BEB28A57B5000514035 /* Cornerstone CAFE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 137B0C1028A57B5200514035 /* Build configuration list for PBXNativeTarget "Cornerstone CAFE" */;
+			buildPhases = (
+				137B0BE828A57B5000514035 /* Sources */,
+				137B0BE928A57B5000514035 /* Frameworks */,
+				137B0BEA28A57B5000514035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cornerstone CAFE";
+			packageProductDependencies = (
+				137B0C2E28A57D1300514035 /* FirebaseAnalytics */,
+				137B0C3028A57D1300514035 /* FirebaseAuth */,
+				137B0C3228A57D1300514035 /* FirebaseDatabase */,
+				137B0C3428A57D1300514035 /* FirebaseFirestore */,
+				137B0C3628A57D1300514035 /* FirebaseMessaging */,
+				137B0C3828A57D1300514035 /* FirebaseStorage */,
+			);
+			productName = "Cornerstone CAFE";
+			productReference = 137B0BEC28A57B5000514035 /* Cornerstone CAFE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		137B0BFB28A57B5100514035 /* Cornerstone CAFETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 137B0C1328A57B5200514035 /* Build configuration list for PBXNativeTarget "Cornerstone CAFETests" */;
+			buildPhases = (
+				137B0BF828A57B5100514035 /* Sources */,
+				137B0BF928A57B5100514035 /* Frameworks */,
+				137B0BFA28A57B5100514035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				137B0BFE28A57B5100514035 /* PBXTargetDependency */,
+			);
+			name = "Cornerstone CAFETests";
+			productName = "Cornerstone CAFETests";
+			productReference = 137B0BFC28A57B5100514035 /* Cornerstone CAFETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		137B0C0528A57B5200514035 /* Cornerstone CAFEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 137B0C1628A57B5200514035 /* Build configuration list for PBXNativeTarget "Cornerstone CAFEUITests" */;
+			buildPhases = (
+				137B0C0228A57B5200514035 /* Sources */,
+				137B0C0328A57B5200514035 /* Frameworks */,
+				137B0C0428A57B5200514035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				137B0C0828A57B5200514035 /* PBXTargetDependency */,
+			);
+			name = "Cornerstone CAFEUITests";
+			productName = "Cornerstone CAFEUITests";
+			productReference = 137B0C0628A57B5200514035 /* Cornerstone CAFEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		137B0BE428A57B5000514035 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					137B0BEB28A57B5000514035 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					137B0BFB28A57B5100514035 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 137B0BEB28A57B5000514035;
+					};
+					137B0C0528A57B5200514035 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 137B0BEB28A57B5000514035;
+					};
+				};
+			};
+			buildConfigurationList = 137B0BE728A57B5000514035 /* Build configuration list for PBXProject "Cornerstone CAFE" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 137B0BE328A57B5000514035;
+			packageReferences = (
+				137B0C2D28A57D1300514035 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 137B0BED28A57B5000514035 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				137B0BEB28A57B5000514035 /* Cornerstone CAFE */,
+				137B0BFB28A57B5100514035 /* Cornerstone CAFETests */,
+				137B0C0528A57B5200514035 /* Cornerstone CAFEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		137B0BEA28A57B5000514035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137B0BF728A57B5100514035 /* Preview Assets.xcassets in Resources */,
+				137B0BF428A57B5100514035 /* Assets.xcassets in Resources */,
+				135495EA290C4B660011DA34 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		137B0BFA28A57B5100514035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		137B0C0428A57B5200514035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		137B0BE828A57B5000514035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137B0C2828A57BB500514035 /* CartView.swift in Sources */,
+				135495EC290F1F1F0011DA34 /* RecommandDrinksModule.swift in Sources */,
+				13DC3B4D28AD4AF100593B46 /* ItemDecor.swift in Sources */,
+				137B0C5028A6FD7A00514035 /* EditProfileView.swift in Sources */,
+				137B0C1A28A57B6300514035 /* LoginView.swift in Sources */,
+				13DC3B4A28AD431400593B46 /* CartDrinkViewModuel.swift in Sources */,
+				137B0C2428A57B9D00514035 /* OrderView.swift in Sources */,
+				134D44CB28AAFEAD00F38887 /* ItemsToMove.swift in Sources */,
+				137B0C2628A57BAD00514035 /* OrderDetailsMoreView.swift in Sources */,
+				137B0C1C28A57B7000514035 /* RegisterView.swift in Sources */,
+				137B0C4A28A6B72D00514035 /* PushNotificationsView.swift in Sources */,
+				13DC3B4328AC2EC000593B46 /* DeleteAccount.swift in Sources */,
+				137B0C4828A6B5DF00514035 /* ReleaseNotesView.swift in Sources */,
+				137B0C4428A6B14600514035 /* MenueModule.swift in Sources */,
+				137B0C4628A6B39C00514035 /* QrCodeNeedHelp.swift in Sources */,
+				138FAB8B28B00C4A00DF17BE /* SplashScreenView.swift in Sources */,
+				137B0C2228A57B8F00514035 /* QrCodeView.swift in Sources */,
+				138FAB8D28B0148000DF17BE /* Onboarding.swift in Sources */,
+				137B0C2028A57B8500514035 /* HomeView.swift in Sources */,
+				137B0BF028A57B5000514035 /* Cornerstone_CAFEApp.swift in Sources */,
+				137B0C1E28A57B7A00514035 /* ForgotpasswordView.swift in Sources */,
+				137B0C2A28A57BC600514035 /* SettingsView.swift in Sources */,
+				137B0C4228A6A9F400514035 /* NetworkConnection.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		137B0BF828A57B5100514035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137B0C0128A57B5100514035 /* Cornerstone_CAFETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		137B0C0228A57B5200514035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137B0C0D28A57B5200514035 /* Cornerstone_CAFEUITestsLaunchTests.swift in Sources */,
+				137B0C0B28A57B5200514035 /* Cornerstone_CAFEUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		137B0BFE28A57B5100514035 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 137B0BEB28A57B5000514035 /* Cornerstone CAFE */;
+			targetProxy = 137B0BFD28A57B5100514035 /* PBXContainerItemProxy */;
+		};
+		137B0C0828A57B5200514035 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 137B0BEB28A57B5000514035 /* Cornerstone CAFE */;
+			targetProxy = 137B0C0728A57B5200514035 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		137B0C0E28A57B5200514035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		137B0C0F28A57B5200514035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		137B0C1128A57B5200514035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
+				DEVELOPMENT_ASSET_PATHS = "\"Cornerstone CAFE/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SB4URRT23;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "Maxim-Fedorets.Cornerstone-CAFE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		137B0C1228A57B5200514035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 13;
+				DEVELOPMENT_ASSET_PATHS = "\"Cornerstone CAFE/Preview Content\"";
+				DEVELOPMENT_TEAM = 6SB4URRT23;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.0.2;
+				PRODUCT_BUNDLE_IDENTIFIER = "Maxim-Fedorets.Cornerstone-CAFE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		137B0C1428A57B5200514035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SB4URRT23;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Maxim-Fedorets.Cornerstone-CAFETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cornerstone CAFE.app/Cornerstone CAFE";
+			};
+			name = Debug;
+		};
+		137B0C1528A57B5200514035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SB4URRT23;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Maxim-Fedorets.Cornerstone-CAFETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cornerstone CAFE.app/Cornerstone CAFE";
+			};
+			name = Release;
+		};
+		137B0C1728A57B5200514035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SB4URRT23;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Maxim-Fedorets.Cornerstone-CAFEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cornerstone CAFE";
+			};
+			name = Debug;
+		};
+		137B0C1828A57B5200514035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SB4URRT23;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Maxim-Fedorets.Cornerstone-CAFEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cornerstone CAFE";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		137B0BE728A57B5000514035 /* Build configuration list for PBXProject "Cornerstone CAFE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137B0C0E28A57B5200514035 /* Debug */,
+				137B0C0F28A57B5200514035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		137B0C1028A57B5200514035 /* Build configuration list for PBXNativeTarget "Cornerstone CAFE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137B0C1128A57B5200514035 /* Debug */,
+				137B0C1228A57B5200514035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		137B0C1328A57B5200514035 /* Build configuration list for PBXNativeTarget "Cornerstone CAFETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137B0C1428A57B5200514035 /* Debug */,
+				137B0C1528A57B5200514035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		137B0C1628A57B5200514035 /* Build configuration list for PBXNativeTarget "Cornerstone CAFEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				137B0C1728A57B5200514035 /* Debug */,
+				137B0C1828A57B5200514035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		137B0C2D28A57D1300514035 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = exactVersion;
+				version = 9.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		137B0C2E28A57D1300514035 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 137B0C2D28A57D1300514035 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		137B0C3028A57D1300514035 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 137B0C2D28A57D1300514035 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		137B0C3228A57D1300514035 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 137B0C2D28A57D1300514035 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		137B0C3428A57D1300514035 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 137B0C2D28A57D1300514035 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		137B0C3628A57D1300514035 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 137B0C2D28A57D1300514035 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		137B0C3828A57D1300514035 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 137B0C2D28A57D1300514035 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 137B0BE428A57B5000514035 /* Project object */;
+}
